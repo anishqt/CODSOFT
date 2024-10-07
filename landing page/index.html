@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodLab Landing Page</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  </head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#">CodLab</a>
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+      </ul>
+      <div class="menu-toggle" id="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  <div class="img"></div>
+  <div class="center">
+    <div class="title">Create Amazing Website</div>
+    <div class="sub_title">Pure HTML & CSS Only</div>
+    <div class="btns">
+      <button>Learn More</button>
+      <button>Subscribe</button>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At CodLab, we specialize in providing top-notch web development services. Our team is dedicated to creating stunning and functional websites that meet the unique needs of our clients. Whether you’re a startup or an established business, we have the expertise to help you succeed online.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Website Development</li>
+      <li>UI/UX Design</li>
+      <li>SEO Optimization</li>
+      <li>E-Commerce Solutions</li>
+      <li>Content Management Systems</li>
+    </ul>
+  </section>
+
+  <!-- Feedback Section -->
+  <section id="feedback">
+    <h2>Feedback</h2>
+    <p>We value your feedback. Please leave us a message below:</p>
+    <form>
+      <textarea placeholder="Your message..." rows="4"></textarea>
+      <br>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2024 CodLab. All Rights Reserved.</p>
+      <div class="socials">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuList = document.querySelector('nav ul');
+
+    mobileMenu.addEventListener('click', () => {
+      menuList.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
