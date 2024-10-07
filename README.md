@@ -1,6 +1,6 @@
 # CODSOFT
 
-$Landing-Page$
+Landing-Page
 ----
 🚀 Check out my latest creation! A sleek and minimalistic landing page designed to give a perfect first impression. Explore the design and let me know your thoughts! 🌐 #CODSOFT #WebDevelopment #LandingPage #HTML #CSS"
 
