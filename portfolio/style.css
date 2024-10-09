@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* About Section */
+#about {
+    text-align: center;
+    padding: 60px 0;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+/* Skills Section */
+#skills {
+    background: #f4f4f4;
+    padding: 60px 0;
+}
+
+#skills ul {
+    list-style: none;
+    text-align: center;
+}
+
+#skills li {
+    display: inline-block;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#projects h3 {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#projects p {
+    font-size: 1.1rem;
+    margin: 20px auto;
+}
+
+#projects img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+/* Resume Section */
+#resume {
+    text-align: center;
+    padding: 60px 0;
+}
+
+#resume a {
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+/* Contact Section */
+#contact {
+    background: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+}
+/* Social Media Icons */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 2rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0077b5; /* LinkedIn Blue */
+}
+
+.social-icons a:nth-child(1):hover {
+    color: #333; /* GitHub default */
+}
+
+
+/* Footer Section */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
+/* Certifications Section */
+#certifications {
+    text-align: center;
+    padding: 60px 0;
+}
+
+#certifications h3 {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#certifications p {
+    font-size: 1.1rem;
+    margin: 20px auto;
+}
+
+#certifications img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}
